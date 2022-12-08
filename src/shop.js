@@ -126,7 +126,7 @@ const Shop=({Total})=>{
                     </div>
                     <div>
                         <p>Price</p>
-                        <div className='inputslider'> <Box sx={{ width: 250 }}>
+                        <div className='inputslider'> <Box sx={{ width: 200 }} className="inputfilter17">
       <Slider
         aria-label="Custom marks"
         defaultValue={30}
@@ -156,11 +156,12 @@ const Shop=({Total})=>{
            <option value="Watch">watch</option>
            <option value="Car">car</option>
            <option value="Bag">Bag</option>
-          </select></span></div><div className='shop4'><span><input type="text" placehollder="search"/></span><span className="shopsearchicon"><BsSearch></BsSearch></span></div></div></Col>
+          </select></span></div><div className='shop4'><span><input type="text" placehollder="search"/></span><span className="shopsearchicon"><BsSearch></BsSearch></span></div></div>
+          </Col>
                 </Row>
                 </Col>
         </Row>
-        <Row  className="p-0 m-0" lg={3}>
+        <Row  className="p-0 m-0" lg={3} id="productrow">
         { (data.filter(selected=>(selected.name.includes(option)))).map((product,item)=>(
             <Col sm ={6} xs={9} md={6} lg={4} size={product.length} key={product.item}><div className="product"><img src={product.imgurl}/><div className="productshopicon1">
               <GiShoppingCart size={34} onClick={()=>addtoRedux(product)}  ></GiShoppingCart>

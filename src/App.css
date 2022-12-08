@@ -971,6 +971,7 @@ margin-bottom: 60px;
   .inpt input{
     display: none;
   }
+  
 }.butonaddremove button{
   width:40px;
 }
@@ -980,3 +981,89 @@ margin-bottom: 60px;
   text-align: center;
   padding:5px;
 }
+@media only screen and (max-width:500px){
+  .head2 h1{
+    padding-left: 10px;
+  } 
+  .fotersbscribeinpt input{
+    width: 100%;
+  }
+  .fotersubscribe{
+    padding: 5px;
+  }
+  .trendcenter img{
+    width: 100%;
+  }
+  .product::before{
+    width: 100%;
+  }
+  .bestseller img{
+    width: 100%;
+  }
+  .discount img{
+    display:none;
+  }
+  .footercontact1 p{
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+
+  } .heead1 img{
+    right:0;
+    width: 100%;
+  }
+  .blog3 img{
+    width: 100%;
+  }
+  .blog3 p{
+    width: 230px;
+  }
+  .blog3 h2{
+    width:230px
+  }
+  #blog15{
+    margin: 0;
+  }
+  #blog15 img{
+    width:100%;
+    padding:0;
+    margin:0;
+  }
+  .cat1{
+    width: 80%;
+  }
+  .visitinsta button{
+    padding:10px;
+  }
+  .inputslider sx{
+    width: 20px;
+  }
+  .contacttextarea textarea{
+    width:90%;
+  }
+  .contactinput input{
+    width: 90%;
+  }
+  .loginbtn button{
+    width: 70%;
+  }
+  .shop4{
+    display:none;
+  }
+  #productrow{
+    margin:0 auto;
+  }
+  #productrow img{
+    width: 100%;
+  }
+  #productrow .product{
+    width:200px ;
+  }
+  .product::before{
+    width: 100%;
+  }
+ 
+  #productrow .productshopicon1{
+    left:33%;
+  }
+} 

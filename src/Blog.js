@@ -39,7 +39,7 @@ for (let number = 1; number <= 5; number++) {
             <p>Home blog</p>
              </Col>
         </Row>
-        <Row lg={3} className="ms-4">
+        <Row lg={3} className="ms-4 " id="blog15">
             <Col lg={4}><div className="cat py-3"><img src={cat1}/><div className="cat1"><h1>Social Life</h1><p>Enjoy your social life</p></div></div></Col>
             <Col lg={4} ><div className="cat py-3"><img src={cat2}/><div className="cat1"><h1>Politics</h1><p>Be a part of politics</p></div></div></Col>
             <Col lg={4}><div className="cat py-3"><img src={cat3}/><div className="cat1"><h1>Foods</h1><p>Let the food be finished</p></div></div></Col>
