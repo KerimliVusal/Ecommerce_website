@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ecommerce_website/static/css/main.960daa4b.css",
+    "main.css": "/Ecommerce_website/static/css/main.e9c91d8a.css",
     "main.js": "/Ecommerce_website/static/js/main.5d44c05a.js",
     "static/js/787.dcc73137.chunk.js": "/Ecommerce_website/static/js/787.dcc73137.chunk.js",
     "static/media/astronomi2.webp": "/Ecommerce_website/static/media/astronomi2.a61056580c878c5a4ba8.webp",
@@ -51,12 +51,12 @@
     "static/media/product-sm-9.png.webp": "/Ecommerce_website/static/media/product-sm-9.png.eae5d1c549aa5e0d2221.webp",
     "static/media/product-sm-2.png.webp": "/Ecommerce_website/static/media/product-sm-2.png.1f3e21b93e9c5e48fbcd.webp",
     "static/media/product-sm-1.png.webp": "/Ecommerce_website/static/media/product-sm-1.png.3041e573415f1cc970f0.webp",
-    "main.960daa4b.css.map": "/Ecommerce_website/static/css/main.960daa4b.css.map",
+    "main.e9c91d8a.css.map": "/Ecommerce_website/static/css/main.e9c91d8a.css.map",
     "main.5d44c05a.js.map": "/Ecommerce_website/static/js/main.5d44c05a.js.map",
     "787.dcc73137.chunk.js.map": "/Ecommerce_website/static/js/787.dcc73137.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.960daa4b.css",
+    "static/css/main.e9c91d8a.css",
     "static/js/main.5d44c05a.js"
   ]
 }
