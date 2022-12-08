@@ -1008,12 +1008,12 @@ margin-bottom: 60px;
     width: 100%;
     font-size: 12px;
 
-  } .heead1 img{
+  } .head1 img{
     right:0;
     width: 100%;
   }
   .blog3 img{
-    width: 100%;
+    width: 340px;
   }
   .blog3 p{
     width: 230px;
@@ -1065,5 +1065,8 @@ margin-bottom: 60px;
  
   #productrow .productshopicon1{
     left:33%;
+  }
+  .carli1 input{
+    width: 150px;
   }
 } 
